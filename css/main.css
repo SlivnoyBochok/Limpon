@@ -1,3 +1,192 @@
-img   {
-    background: black;
+/*Подсказка-подключение шрифтов из папки
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(../font/OpenSans.ttf);
+}
+
+li {
+    font-family: "OpenSans";
+}
+*/
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7581a1;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.main-menu {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;
+}
+
+.btn-free {
+    color: #ffffff;
+    font-weight: 400;
+    background-color: #1085e4;
+}
+
+
+
+
+
+.btn {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #1085e4;
+text-transform: uppercase;
+}
+
+.btn-grey {
+    font-size: 12px;
+    font-weight: 700;
+    color: #7e8bae;
+    background-color: #cbdbe8;
+text-transform: uppercase;
+}
+
+.features h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.features h2 span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+    text-transform: uppercase;
+}
+
+.grid-icon h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.grid-icon a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+}
+
+
+.subscribe h2 {
+    background-color: #0c2594;
+     color: #ffffff;
+}
+ h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    
+}
+.subscribe p {
+    color: #ffffff;
+    background-color: #0c2594;
+}
+
+.subscribe button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #1085e4;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #1085e4;
+    display: block;
+}
+
+
+.subscribe h2 span {
+    color: #00bffe;
+}
+
+.page-static h2 span{
+    font-size: 16px;
+}
+
+page-screen h2 span {
+    font-size: 18px;
+}
+/*
+.subscribe h2 span {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #00bffe;
+    display: block;
+    
+}
+
+.page-static h2 span {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+    display: block; 
+}
+
+.page-screen h2 span {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+    display: block;
+}*/
+.page-software p {
+    font-size: 14px;
+}
+.page-software dd {
+    font-size: 14px;
+}
+
+.page-static li {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1085e4;
+    text-transform: uppercase;
+}
+
+.page-static li span {
+    font-size: 60px;
+    font-weight: 700;
+    color: #bacbdc;
+}
+
+.page-app span {
+    font-weight: 700;
+    color: #d1dbe4;
+}
+
+.page-app p {
+    font-size: 16px;
+}
+
+.text a {
+    font-size: 12px;
+    font-weight: 700px;
+    color: #ffffff;
+    background-color: #1085e4;
+    text-transform: uppercase;
 }
